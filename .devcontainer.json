@@ -1,0 +1,8 @@
+{
+  "name": "Dev Containers",
+  "build": {
+    "dockerfile": "Dev.Dockerfile"
+  },
+  "workspaceFolder": "/app",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/app,type=bind"
+}
