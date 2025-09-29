@@ -59,8 +59,9 @@ func NewInspect() *cobra.Command {
 				head_t.Row(name,  fmt.Sprintf("%.2f MB", image_size), fmt.Sprintf("%d", num_layers))
 				fmt.Println(head_t)
 			
-
+				
 				// Biggest layer
+				fmt.Println("Largest layer: ")
 				l_t := gadget.CreateTable()
 				layer_info := gadget.GetLargestLayer(img_info)
 				l_t.Headers("Digest",  "Size", "Layer Idx")
