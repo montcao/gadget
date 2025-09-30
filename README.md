@@ -5,6 +5,12 @@ The beta release operates on the presumption that go is installed on the system.
 
 ``go install github.com/montcao/gadget``
 
+Then inspect an image with: 
+
+``gadget inspect <image-name>``
+
+An example output is shown at the bottom.
+
 Prebuilt binaries - TODO
 
 
