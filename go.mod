@@ -1,7 +1,7 @@
 module github.com/montcao/gadget
 
 go 1.24
-
+retract v0.0.1
 require (
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/google/go-containerregistry v0.20.6
