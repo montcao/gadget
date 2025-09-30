@@ -1,12 +1,17 @@
 # gadget (beta)
 Programmatically inspect layers of a container image. This can be used as a cli tool or as a package in your application. 
 
+The beta release operates on the presumption that go is installed on the system. To install the package, run: 
 
-As of the beta, you will have to clone the repo and run this command:
-``go run . inspect <imagename>``
+``go install github.com/montcao/gadget@v0.0.1-beta``
+
+Prebuilt binaries - TODO
+
 
 #### Dev example: 
-``go run . inspect cerog/hashtopolis-nvidia-agent-lite12.0:v1.0.1``
+
+To do development, clone the repo and run this command:
+``go run . inspect <imagename>``
 
 #### Output:
 
