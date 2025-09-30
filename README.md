@@ -3,7 +3,7 @@ Programmatically inspect layers of a container image. This can be used as a cli 
 
 The beta release operates on the presumption that go is installed on the system. To install the package, run: 
 
-``go install github.com/montcao/gadget@v0.0.1-beta``
+``go install github.com/montcao/gadget``
 
 Prebuilt binaries - TODO
 
