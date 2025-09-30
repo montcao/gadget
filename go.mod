@@ -1,6 +1,6 @@
 module github.com/montcao/gadget
 
-go 1.26
+go 1.24
 
 require (
 	github.com/charmbracelet/lipgloss v1.1.0
